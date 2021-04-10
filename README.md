@@ -12,4 +12,6 @@ at 506 sample size
 ![training error](https://user-images.githubusercontent.com/43177212/114280841-21711200-9a33-11eb-9599-d8fbbf0e443b.png)
 ![validation error](https://user-images.githubusercontent.com/43177212/114280844-22a23f00-9a33-11eb-9b61-a10022336b8e.png)
 
+Final validation MSELoss = 0.047
+
 Note: Data Unavailable for upload to do confidentiality. 
