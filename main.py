@@ -12,11 +12,9 @@ def format_data(data, labels):
     data_x = []
     data_y = []
 
-    print(labels)
     # append features and target data, ordered by correct subject id for datset
     for index, row in labels.iterrows():
         subj_id = int(row['subj_id'])
-        print(subj_id)
         data_x.append(data[subj_id])
         data_y.append(row['scan_ga'])
 
@@ -30,6 +28,7 @@ if __name__ == '__main__':
 
     labels = pd.read_pickle(training_meta_path)
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    print(f'device is {device}')
 
     print(f'label length is : {len(labels)}')
 
