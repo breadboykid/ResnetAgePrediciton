@@ -1,5 +1,5 @@
 # ResnetAgePrediciton
-Age Prediction by brain scans: cortical thickness, cortical curvature and cortical myelination 
+Pytorch framework age Prediction by brain scans: cortical thickness, cortical curvature and cortical myelination. 
 
 Using custom built resnet as describes in the article:
 "Identity Mappings in Deep Residual Networks"
