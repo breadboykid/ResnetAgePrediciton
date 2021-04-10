@@ -6,6 +6,8 @@ Using custom built resnet as describes in the article:
 Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun
 https://arxiv.org/abs/1603.05027
 
+Elastic deformation and gaussian noise transforms added to imporve validation loss and generalizability. 
+
 At Epoch 50 Final 
 at 506 sample size
 
